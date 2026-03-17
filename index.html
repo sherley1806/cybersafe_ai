@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CyberSafe AI - Cybersecurity Awareness Platform</title>
+
+<style>
+
+body{
+font-family: Arial;
+text-align:center;
+background:#f4f6f8;
+}
+
+.container{
+margin-top:40px;
+}
+
+textarea{
+width:320px;
+height:100px;
+padding:10px;
+}
+
+input{
+width:300px;
+padding:8px;
+}
+
+button{
+padding:10px 15px;
+background:#0077ff;
+color:white;
+border:none;
+margin-top:10px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056cc;
+}
+
+.result{
+margin-top:20px;
+font-weight:bold;
+}
+
+ul{
+list-style:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>CyberSafe AI</h1>
+<p>Cybersecurity Awareness Platform</p>
+
+<div class="container">
+
+<h2>Check Scam Message</h2>
+
+<textarea id="message" placeholder="Paste message here"></textarea><br>
+
+<button onclick="checkScam()">Check Message</button>
+
+<div class="result" id="result"></div>
+
+<br><br>
+
+<h2>Check Website URL</h2>
+
+<input type="text" id="url" placeholder="Enter website URL">
+
+<br><br>
+
+<button onclick="checkURL()">Check URL</button>
+
+<div class="result" id="urlresult"></div>
+
+<br><br>
+
+<h2>Cyber Safety Tips</h2>
+
+<ul>
+<li>🔒 Never share OTP with anyone</li>
+<li>🔒 Do not click unknown links</li>
+<li>🔒 Always check website spelling</li>
+<li>🔒 Enable two-factor authentication</li>
+</ul>
+
+</div>
+
+<script>
+
+function checkScam(){
+
+let msg = document.getElementById("message").value.toLowerCase()
+
+if(msg.includes("otp") || msg.includes("urgent") || msg.includes("click") || msg.includes("bank")){
+
+document.getElementById("result").innerHTML =
+"⚠️ Warning: This message looks like a scam!"
+
+}
+
+else{
+
+document.getElementById("result").innerHTML =
+"✅ This message looks safe."
+
+}
+
+}
+
+function checkURL(){
+
+let url = document.getElementById("url").value.toLowerCase()
+
+if(url.includes("free") || url.includes("offer") || url.includes("win") || url.includes("prize")){
+
+document.getElementById("urlresult").innerHTML =
+"⚠️ Warning: Suspicious website!"
+
+}
+
+else{
+
+document.getElementById("urlresult").innerHTML =
+"✅ Website looks safe."
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
