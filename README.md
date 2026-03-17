@@ -54,7 +54,7 @@ Project Structure
 cybersafe-ai │ ├── index.html └── README.md 
 
 Outpt:
- ![cybersafe-ai.jpeg](url)
+ ![cybersafe-ai.jpeg](cybersafe-ai.png)
 
 Future Improvements
 
