@@ -53,12 +53,7 @@ Project Structure
 
 cybersafe-ai │ ├── index.html └── README.md 
 
-Deployment
 
-Live Demo:
-
-Example:  
-[https://cybersafe-ai-platform.netlify.app/](url)
 
 Future Improvements
 
@@ -73,3 +68,4 @@ Advanced scam pattern recognition
 Conclusion
 
 CyberSafe AI helps improve cybersecurity awareness by giving users simple tools to detect scams and learn safe online practices.
+
