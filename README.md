@@ -57,7 +57,7 @@ Deployment
 
 Live Demo:
 (Add your Netlify deployment link here)
-Example: https://your-site-name.netlify.app
+Example:  cybersafe-platform-ai.netlify.app
 
 Future Improvements
 
