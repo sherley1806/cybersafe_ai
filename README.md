@@ -53,9 +53,6 @@ Project Structure
 
 cybersafe-ai │ ├── index.html └── README.md 
 
-Outpt:
- ![cybersafe-ai.jpeg](cybersafe-ai.jpge)
-
 Future Improvements
 
 AI-based phishing detection using machine learning
