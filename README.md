@@ -57,7 +57,8 @@ Deployment
 
 Live Demo:
 
-Example: [https://cybersafe-platform-ai.netlify.app/](url)
+Example:  
+[https://cybersafe-ai-platform.netlify.app/](url)
 
 Future Improvements
 
