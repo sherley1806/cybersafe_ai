@@ -56,7 +56,7 @@ cybersafe-ai │ ├── index.html └── README.md
 Deployment
 
 Live Demo:
-(Add your Netlify deployment link here)
+
 Example:  cybersafe-platform-ai.netlify.app
 
 Future Improvements
